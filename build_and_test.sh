@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+./build_and_test_1_instanciate_and_provision_redis.sh
+./build_and_test_2_instanciate_and_provision_oracle.sh
+./build_and_test_3_configure_for_oracle_in_redis.sh
+./build_and_test_4_create_oracle_database.sh
+./build_and_test_5_instanciate_and_provision_tomcat_server.sh
+./build_and_test_6_run_tests.sh
+./build_and_test_7_teardown.sh
