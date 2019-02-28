@@ -19,7 +19,7 @@ resource "aws_instance" "ec2_oracle" {
       user = "ubuntu",
       private_key = "${file("~/.ssh/id_rsa")}"
     }
-    script = "terraformProvisionoracleUsingDocker.sh"
+    script = "terraformProvisionOracleUsingDocker.sh"
   }
   tags {
     Name = "tomcat-oracle-dockercompose-redis-terraform-aws-sample Oracle ${format("%03d", count.index)}"
